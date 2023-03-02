@@ -1,0 +1,20 @@
+{
+  "name": "awesomebooks-es6",
+  "version": "1.0.0",
+  "description": "This is my 1st Capstone project where I used media queries to make website fully responsive in nature. I use javascript event listeners on click event to show speaker section in the home page. Used different menubars for mobile and desktop view . <!-- TABLE OF CONTENTS -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supreeti/Awesomebooks-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supreeti/Awesomebooks-ES6/issues"
+  },
+  "homepage": "https://github.com/supreeti/Awesomebooks-ES6#readme"
+}
