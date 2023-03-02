@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 li {
@@ -106,7 +106,7 @@ main {
   padding: 5px;
   justify-content: space-between;
   align-items: center;
-  box-shadow: grey;
+  box-shadow: gray 0 5px 15px;
 }
 
 .single-book:nth-child(odd) {
@@ -128,7 +128,6 @@ main {
   cursor: pointer;
 }
 
-/* add book section */
 .add-new-book.hide {
   display: none;
 }
@@ -177,7 +176,7 @@ form input {
 form input:focus {
   border: 2px solid black;
   outline: black;
-  box-shadow: gray;
+  box-shadow: gray 0 5px 15px;
 }
 
 form button {
