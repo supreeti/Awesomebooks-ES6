@@ -1,9 +1,10 @@
-let luxon = (function (exports) {
+/*eslint-disable*/
+var luxon = (function (exports) {
   "use strict";
 
-  function defineProperties(target, props) {
-    for (let i = 0; i < props.length; i++) {
-      let descriptor = props[i];
+  function _defineProperties(target, props) {
+    for (var i = 0; i < props.length; i++) {
+      var descriptor = props[i];
       descriptor.enumerable = descriptor.enumerable || false;
       descriptor.configurable = true;
       if ("value" in descriptor) descriptor.writable = true;
@@ -7901,11 +7902,11 @@ let luxon = (function (exports) {
       return clone(this, adjustTime(this, dur));
     };
     /**
-       * Subtract a period of time to this DateTime and return the resulting DateTime
-       * See {@link DateTime#plus}
-       * @param {Duration|Object|number} duration - The amount to subtract. Either a Luxon Duration, a number of milliseconds, the object argument to Duration.fromObject()
-       @return {DateTime}
-       */
+     * Subtract a period of time to this DateTime and return the resulting DateTime
+     * See {@link DateTime#plus}
+     * @param {Duration|Object|number} duration - The amount to subtract. Either a Luxon Duration, a number of milliseconds, the object argument to Duration.fromObject()
+     @return {DateTime}
+     */
 
     _proto.minus = function minus(duration) {
       if (!this.isValid) return this;
