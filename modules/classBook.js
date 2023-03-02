@@ -1,6 +1,6 @@
 class AwesomeBook {
   constructor() {
-    this.bookList = JSON.parse(localStorage.getItem("storedData")) || [];
+    this.bookList = JSON.parse(localStorage.getItem('storedData')) || [];
   }
 
   addBookAwes(title, author) {
@@ -14,7 +14,7 @@ class AwesomeBook {
   }
 
   updateLocal() {
-    localStorage.setItem("storedData", JSON.stringify(this.bookList));
+    localStorage.setItem('storedData', JSON.stringify(this.bookList));
   }
 }
 export default AwesomeBook;
