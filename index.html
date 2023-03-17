@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AwesomeBooks library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     
 </head>
 <body>
     <header>
-        <h2 class="mylogo">AwesomeBooks Online Library</h2>
-        <nav class="links">
-            <ul>
+        <h3 class="logo">AwesomeBooks</h3>
+        <nav>
+            <ul class="nav-link">
                 <li>List</li>
                 <li>Add</li>
                 <li>Contact</li>
@@ -20,39 +23,46 @@
         </nav>
     </header>
     <main>
-        <div class="date" id="currdate"></div> 
-        <section class="book">        
-        <h2>All Awesome Books List</h2>
-          
-            <div class="allbooks">
+        <div class="date-time">
+            <span id="clock"></span>
+            <span id="date"></span>
+        </div>
+        <section class="book-container">
+            <div class="book-container-header">
+                <h2>All Awesome Books</h2>
+                <hr class="line-book">
+            </div>
+            <div class="book-collection">
                 
             </div>
          
         </section>
-        <section class="addbook hide" id="form">
-           
-                <h3>Add New books</h3>
-           
-                <form>
-                <input type="text" name="" id="title" placeholder="Title">
-                <input type="text" name="" id="author" placeholder="Author">
-                <button type="button" id="add">Add</button>
+        <section class="add-new-book hide">
+            <div class="add-book-header">
+                <h3>Add book</h3>
+                <hr class="add-book-break">
+            </div>
+            <form action="" method="post" id="myForm">
+                <input type="text" name="title" id="booktitle" placeholder="Title">
+                <input type="text" name="author" id="bookauth" placeholder="Author">
+                <button type="button" class='addbtn' id="AddBookBtn">Add Book</button>
             </form>
         </section>
-        <section class="contat hide">
-            <h2>Contact Info </h2>    
+        <section class="contact-me hide">
+            <h3>Contact Us</h3>
+            <div class="contact-description">
                 <h4>You can reach us at:-</h4>
-                <ul>
-                    <li>Name: Supreeti Kushwaha</li>
-                    <li>Contact: +919106438868</li>
-                    <li>Email: sksupreetk11@gmail.com</li>
-                    <li>Address:A-234 ,Greater Heights, Gujarat,India</li>
-                </ul>          
+                <ul class="contact-list">
+                    <li class="single-contact">Contact: +919106438868</li>
+                    <li class="single-contact">Name: Supreeti Kushwaha</li>
+                    <li class="single-contact">Email: sksupreetk11@gmail.com</li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
-            <h4>Copyright</h4>
-             <h3>By Supreeti</h3>
+       <div> <h4>Copyright</div></h4>
+    <h3 class="logo">By Supreeti</h3>
     </footer>
     <script type="module" src="index.js"></script>   
 </body>
